@@ -11,5 +11,6 @@
 #import "RectConst.h"
 #import "FontConst.h"
 #import "ColorConst.h"
+#import "AppConst.h"
 
 #endif /* ConstHeader_h */
