@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XyWidget_Example' do
+  pod 'XyWidget', :path => '../'
+
+  target 'XyWidget_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

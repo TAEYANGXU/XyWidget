@@ -1,0 +1,16 @@
+PODS:
+  - XyWidget (0.1.0)
+
+DEPENDENCIES:
+  - XyWidget (from `../`)
+
+EXTERNAL SOURCES:
+  XyWidget:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XyWidget: 2932677239d706ced16c5568e51707db8a5b7dd6
+
+PODFILE CHECKSUM: e839077d1f52f34240f9867af0170c3bc6fd1aec
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module XyWidget {
+  umbrella header "XyWidget-umbrella.h"
+
+  export *
+  module * { export * }
+}

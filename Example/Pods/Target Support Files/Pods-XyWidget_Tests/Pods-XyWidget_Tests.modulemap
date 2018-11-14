@@ -1,0 +1,6 @@
+framework module Pods_XyWidget_Tests {
+  umbrella header "Pods-XyWidget_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
