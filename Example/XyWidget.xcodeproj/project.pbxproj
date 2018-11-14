@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		0E66C66A462C5AFFF311AFD0 /* Pods-XyWidget_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XyWidget_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XyWidget_Tests/Pods-XyWidget_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0F75B9DBD5B8AF9321B22615 /* Pods_XyWidget_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XyWidget_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B438452C7EEFE351A2A0535 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3B438452C7EEFE351A2A0535 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		590A8D015CA7D2CA37DA5B17 /* Pods_XyWidget_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XyWidget_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* XyWidget_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XyWidget_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,11 +61,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7514D48C2F9097C30437F169 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7514D48C2F9097C30437F169 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CAC99842D2D0510DA8C987CB /* Pods-XyWidget_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XyWidget_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XyWidget_Example/Pods-XyWidget_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E85AAA1486CB9C5E08789D2D /* Pods-XyWidget_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XyWidget_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XyWidget_Tests/Pods-XyWidget_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F93FB5735C6681A705934194 /* XyWidget.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XyWidget.podspec; path = ../XyWidget.podspec; sourceTree = "<group>"; };
+		F93FB5735C6681A705934194 /* XyWidget.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XyWidget.podspec; path = ../XyWidget.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FCE3867B0D37EECEFC4A21A1 /* Pods-XyWidget_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XyWidget_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XyWidget_Example/Pods-XyWidget_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
