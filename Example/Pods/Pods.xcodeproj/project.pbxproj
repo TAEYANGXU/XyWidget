@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		14ACF2C36FCCBCB78C85EC5F533628EF /* Pods-XyWidget_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 835734A6347CF76A73D8F360B6834966 /* Pods-XyWidget_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		14DC3466E1EAABC2F93D12AA57B6CFB8 /* Pods-XyWidget_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B4FB1DEA1985734A1F904D3FED75DC4 /* Pods-XyWidget_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BA7B1FE219BE74600093ABE /* RectConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA7B1FA219BE74500093ABE /* RectConst.h */; };
+		1BA7B1FF219BE74600093ABE /* ConstHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA7B1FB219BE74500093ABE /* ConstHeader.h */; };
+		1BA7B200219BE74600093ABE /* FontConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA7B1FC219BE74600093ABE /* FontConst.h */; };
+		1BA7B201219BE74600093ABE /* ColorConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA7B1FD219BE74600093ABE /* ColorConst.h */; };
+		1BA7B204219BE75000093ABE /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA7B202219BE75000093ABE /* UIColor+Hex.h */; };
+		1BA7B205219BE75000093ABE /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA7B203219BE75000093ABE /* UIColor+Hex.m */; };
 		1FC4CCA72A21EF6B1330BD39B76AAF09 /* XyWidget-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E59B9665B780B328A526A87F8EF102B /* XyWidget-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4ED962DB3D5EA664FEFED1ACA2749842 /* Pods-XyWidget_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 982BBB3062402F6A8FE8B5CED9107868 /* Pods-XyWidget_Tests-dummy.m */; };
 		6E3B76C103E8AF66C2545783D933B7D0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9340AABAE10EE47D92EB64A37D3B611E /* ReplaceMe.m */; };
@@ -37,8 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1761092946DBDB88DB1E475238957E5A /* Pods_XyWidget_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XyWidget_Example.framework; path = "Pods-XyWidget_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1761092946DBDB88DB1E475238957E5A /* Pods_XyWidget_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XyWidget_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E5F496A80243841182F37101C8C2B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BA7B1FA219BE74500093ABE /* RectConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RectConst.h; path = XyWidget/Classes/RectConst.h; sourceTree = "<group>"; };
+		1BA7B1FB219BE74500093ABE /* ConstHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConstHeader.h; path = XyWidget/Classes/ConstHeader.h; sourceTree = "<group>"; };
+		1BA7B1FC219BE74600093ABE /* FontConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontConst.h; path = XyWidget/Classes/FontConst.h; sourceTree = "<group>"; };
+		1BA7B1FD219BE74600093ABE /* ColorConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorConst.h; path = XyWidget/Classes/ColorConst.h; sourceTree = "<group>"; };
+		1BA7B202219BE75000093ABE /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "XyWidget/Classes/UIColor+Hex.h"; sourceTree = "<group>"; };
+		1BA7B203219BE75000093ABE /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "XyWidget/Classes/UIColor+Hex.m"; sourceTree = "<group>"; };
 		1C88338DCF0174ECA162C497FBFB6BF7 /* XyWidget.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XyWidget.xcconfig; sourceTree = "<group>"; };
 		21911D90297A37BD75910C4CD8FCD8F8 /* Pods-XyWidget_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XyWidget_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		246C793ADAAC8B6CCBB6C092D92521FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,7 +63,7 @@
 		5B8B0522F0CCB90F843BC47A2649F820 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		648E436DC94E9C0315109400AA321105 /* Pods-XyWidget_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XyWidget_Tests.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6E4EAAA68E33F1A686B8E6A8DDBF4A11 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6E4EAAA68E33F1A686B8E6A8DDBF4A11 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6EFF9C71618DCB02FAEFE40E0BB61B38 /* Pods-XyWidget_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XyWidget_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		79A76462A751EA3563B52C7CD17B126F /* Pods-XyWidget_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XyWidget_Tests-resources.sh"; sourceTree = "<group>"; };
 		819DA17DCFC10944B3CE91D2F188EB87 /* Pods-XyWidget_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XyWidget_Example.modulemap"; sourceTree = "<group>"; };
@@ -59,18 +71,18 @@
 		8A2F7B90020934A5BAE993A0F7F54E55 /* XyWidget.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XyWidget.modulemap; sourceTree = "<group>"; };
 		8EE087B0C60CC82B42F0C1BC95636785 /* Pods-XyWidget_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XyWidget_Example-dummy.m"; sourceTree = "<group>"; };
 		9340AABAE10EE47D92EB64A37D3B611E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XyWidget/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		982BBB3062402F6A8FE8B5CED9107868 /* Pods-XyWidget_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XyWidget_Tests-dummy.m"; sourceTree = "<group>"; };
 		9E59B9665B780B328A526A87F8EF102B /* XyWidget-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XyWidget-umbrella.h"; sourceTree = "<group>"; };
 		A4ABA1759BF6227CA7EEEE16DD7C99C3 /* Pods-XyWidget_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XyWidget_Example-resources.sh"; sourceTree = "<group>"; };
 		A712E97FE84F021BDB97556C21F30986 /* XyWidget-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XyWidget-dummy.m"; sourceTree = "<group>"; };
-		A99EC32846BDBAB7632311FBE908E498 /* Pods_XyWidget_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XyWidget_Tests.framework; path = "Pods-XyWidget_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99EC32846BDBAB7632311FBE908E498 /* Pods_XyWidget_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XyWidget_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C54C59315253E4C075675D93240DA066 /* Pods-XyWidget_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XyWidget_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CF990AD24086D72BD8FE3A9CBA53630B /* XyWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XyWidget.framework; path = XyWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF9D6B94DE4DFCC7FC6FB73435118A7D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CF990AD24086D72BD8FE3A9CBA53630B /* XyWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XyWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9D6B94DE4DFCC7FC6FB73435118A7D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D9087B8BEDE2AA8CF6B180CB553908C0 /* Pods-XyWidget_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XyWidget_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DE2380F8BCED35387928F020D478D31E /* Pods-XyWidget_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XyWidget_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E305CC17A199E509BF6773CC3C92223D /* XyWidget.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XyWidget.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E305CC17A199E509BF6773CC3C92223D /* XyWidget.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = XyWidget.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FB2091D2371D4D3562D5B2DEBE5691B7 /* Pods-XyWidget_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XyWidget_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +114,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BA7B1F8219BE6FF00093ABE /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				1BA7B1FD219BE74600093ABE /* ColorConst.h */,
+				1BA7B1FB219BE74500093ABE /* ConstHeader.h */,
+				1BA7B1FC219BE74600093ABE /* FontConst.h */,
+				1BA7B1FA219BE74500093ABE /* RectConst.h */,
+			);
+			name = Const;
+			sourceTree = "<group>";
+		};
+		1BA7B1F9219BE72E00093ABE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1BA7B202219BE75000093ABE /* UIColor+Hex.h */,
+				1BA7B203219BE75000093ABE /* UIColor+Hex.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		5423EB6E6CA6B21F468869F734154969 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +252,8 @@
 		EF83D625C4CC97DCEBD78204F5D07E75 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				1BA7B1F9219BE72E00093ABE /* Category */,
+				1BA7B1F8219BE6FF00093ABE /* Const */,
 				CF9D6B94DE4DFCC7FC6FB73435118A7D /* LICENSE */,
 				6E4EAAA68E33F1A686B8E6A8DDBF4A11 /* README.md */,
 				E305CC17A199E509BF6773CC3C92223D /* XyWidget.podspec */,
@@ -242,7 +276,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BA7B1FE219BE74600093ABE /* RectConst.h in Headers */,
 				14DC3466E1EAABC2F93D12AA57B6CFB8 /* Pods-XyWidget_Example-umbrella.h in Headers */,
+				1BA7B201219BE74600093ABE /* ColorConst.h in Headers */,
+				1BA7B1FF219BE74600093ABE /* ConstHeader.h in Headers */,
+				1BA7B204219BE75000093ABE /* UIColor+Hex.h in Headers */,
+				1BA7B200219BE74600093ABE /* FontConst.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				923BFFB6FF5C449EF4F89AC03D846ACE /* Pods-XyWidget_Example-dummy.m in Sources */,
+				1BA7B205219BE75000093ABE /* UIColor+Hex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
