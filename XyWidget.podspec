@@ -32,33 +32,31 @@ TODO: Add long description of the pod here.
 
   # s.source_files = 'XyWidget/Classes/**/*'
   
-  
   s.subspec 'ViewExtension' do |viewExtension|
-      viewExtension.source_files = 'ToolWidget/Classes/ViewExtension/**/*'
-      viewExtension.public_header_files = 'ToolWidget/Classes/ViewExtension/**/*.h'
-      viewExtension.dependency  'ToolWidget/Const'
+      viewExtension.source_files = 'XyWidget/Classes/ViewExtension/**/*'
+      viewExtension.public_header_files = 'XyWidget/Classes/ViewExtension/**/*.h'
+      viewExtension.dependency  'XyWidget/Const'
   end
   
   s.subspec 'Custom' do |custom|
-      custom.source_files = 'ToolWidget/Classes/Custom/**/*'
-      custom.public_header_files = 'ToolWidget/Classes/Custom/**/*.h'
+      custom.source_files = 'XyWidget/Classes/Custom/**/*'
+      custom.public_header_files = 'XyWidget/Classes/Custom/**/*.h'
   end
   
   s.subspec 'Const' do |const|
-      const.source_files = 'ToolWidget/Classes/Const/**/*'
-      const.public_header_files = 'ToolWidget/Classes/Const/**/*.h'
-      # const.dependency  'ToolWidget/ViewExtension'
+      const.source_files = 'XyWidget/Classes/Const/**/*'
+      const.public_header_files = 'XyWidget/Classes/Const/**/*.h'
   end
   
   s.subspec 'Categorys' do |categorys|
-      categorys.source_files = 'ToolWidget/Classes/Categorys/**/*'
-      categorys.public_header_files = 'ToolWidget/Classes/Categorys/**/*.h'
+      categorys.source_files = 'XyWidget/Classes/Categorys/**/*'
+      categorys.public_header_files = 'XyWidget/Classes/Categorys/**/*.h'
       categorys.dependency 'YYText'
   end
   
   s.subspec 'Tools' do |tools|
-      tools.source_files = 'ToolWidget/Classes/Tools/**/*'
-      tools.public_header_files = 'ToolWidget/Classes/Tools/**/*.h'
+      tools.source_files = 'XyWidget/Classes/Tools/**/*'
+      tools.public_header_files = 'XyWidget/Classes/Tools/**/*.h'
   end
   
   
