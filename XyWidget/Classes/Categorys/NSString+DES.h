@@ -16,9 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSString (DES)
 
-+ (NSString*)encrypt:(NSData*)plainData withKey:(NSString*)key;
++ (NSData *)encrypt:(NSData*)plainData withKey:(NSString*)key;
 
-+ (NSData*)decrypt:(NSString*)plainText length:(long)len withKey:(NSString*)key;
++ (NSData*)decrypt:(NSData *)EncryptData length:(long)len withKey:(NSString*)key;
 
 @end
 

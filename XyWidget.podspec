@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XyWidget'
-  s.version          = '0.1.4'
+  s.version          = '1.0.0'
   s.summary          = '项目辅助类'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,37 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'XyWidget/Classes/**/*'
+  # s.source_files = 'XyWidget/Classes/**/*'
+  
+  
+  s.subspec 'ViewExtension' do |viewExtension|
+      viewExtension.source_files = 'ToolWidget/Classes/ViewExtension/**/*'
+      viewExtension.public_header_files = 'ToolWidget/Classes/ViewExtension/**/*.h'
+      viewExtension.dependency  'ToolWidget/Const'
+  end
+  
+  s.subspec 'Custom' do |custom|
+      custom.source_files = 'ToolWidget/Classes/Custom/**/*'
+      custom.public_header_files = 'ToolWidget/Classes/Custom/**/*.h'
+  end
+  
+  s.subspec 'Const' do |const|
+      const.source_files = 'ToolWidget/Classes/Const/**/*'
+      const.public_header_files = 'ToolWidget/Classes/Const/**/*.h'
+      # const.dependency  'ToolWidget/ViewExtension'
+  end
+  
+  s.subspec 'Categorys' do |categorys|
+      categorys.source_files = 'ToolWidget/Classes/Categorys/**/*'
+      categorys.public_header_files = 'ToolWidget/Classes/Categorys/**/*.h'
+      categorys.dependency 'YYText'
+  end
+  
+  s.subspec 'Tools' do |tools|
+      tools.source_files = 'ToolWidget/Classes/Tools/**/*'
+      tools.public_header_files = 'ToolWidget/Classes/Tools/**/*.h'
+  end
+  
   
   # s.resource_bundles = {
   #   'XyWidget' => ['XyWidget/Assets/*.png']
@@ -39,4 +69,8 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.frameworks = 'UIKit'
+  s.dependency 'YYText'
+  
 end

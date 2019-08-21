@@ -34,9 +34,8 @@
 #define MaxX(v) CGRectGetMaxX((v).frame)
 #define MaxY(v) CGRectGetMaxY((v).frame)
 
-/// 设计规范
-#define TABBAR_HEIGHT 49
-#define NAVBAR_HEIGHT (IS_IphoneX ? 88 : 64)
-#define SAFE_AREA (SCREEN_HEIGHT - NAVBAR_HEIGHT)
+#define kStatusBar_Height       [[UIApplication sharedApplication] statusBarFrame].size.height //状态栏高度 20,44
+#define kBottomBar_Height       ([[UIApplication sharedApplication] statusBarFrame].size.height>20?34:0) //底部距离
+#define kNavigationBar_Height   ([[UIApplication sharedApplication] statusBarFrame].size.height>20?88:64) //导航栏高度
 
 #endif /* RectConst_h */
