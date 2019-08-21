@@ -69,6 +69,6 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   
   s.frameworks = 'UIKit'
-  s.dependency 'YYText'
+  # s.dependency 'YYText'
   
 end

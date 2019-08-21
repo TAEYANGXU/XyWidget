@@ -22,13 +22,11 @@
 		1B2F76BA230D44AB001FFA0D /* CustomTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2F7681230D44AA001FFA0D /* CustomTextField.h */; };
 		1B2F76BB230D44AB001FFA0D /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2F7682230D44AA001FFA0D /* CustomTextField.m */; };
 		1B2F76BC230D44AB001FFA0D /* NSString+Sha1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2F7684230D44AB001FFA0D /* NSString+Sha1.m */; };
-		1B2F76BD230D44AB001FFA0D /* NSMutableAttributedString+Text.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2F7685230D44AB001FFA0D /* NSMutableAttributedString+Text.h */; };
 		1B2F76BE230D44AB001FFA0D /* NSString+DES.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2F7686230D44AB001FFA0D /* NSString+DES.m */; };
 		1B2F76BF230D44AB001FFA0D /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2F7687230D44AB001FFA0D /* GTMBase64.h */; };
 		1B2F76C0230D44AB001FFA0D /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2F7688230D44AB001FFA0D /* NSString+MD5.h */; };
 		1B2F76C1230D44AB001FFA0D /* NSString+Chinese.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2F7689230D44AB001FFA0D /* NSString+Chinese.h */; };
 		1B2F76C2230D44AB001FFA0D /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2F768A230D44AB001FFA0D /* NSData+Base64.h */; };
-		1B2F76C3230D44AB001FFA0D /* NSMutableAttributedString+Text.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2F768B230D44AB001FFA0D /* NSMutableAttributedString+Text.m */; };
 		1B2F76C4230D44AB001FFA0D /* NSString+DES.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2F768C230D44AB001FFA0D /* NSString+DES.h */; };
 		1B2F76C5230D44AB001FFA0D /* NSString+Sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2F768D230D44AB001FFA0D /* NSString+Sha1.h */; };
 		1B2F76C6230D44AB001FFA0D /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2F768E230D44AB001FFA0D /* GTMDefines.h */; };
@@ -107,13 +105,11 @@
 		1B2F7681230D44AA001FFA0D /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
 		1B2F7682230D44AA001FFA0D /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
 		1B2F7684230D44AB001FFA0D /* NSString+Sha1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Sha1.m"; sourceTree = "<group>"; };
-		1B2F7685230D44AB001FFA0D /* NSMutableAttributedString+Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Text.h"; sourceTree = "<group>"; };
 		1B2F7686230D44AB001FFA0D /* NSString+DES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DES.m"; sourceTree = "<group>"; };
 		1B2F7687230D44AB001FFA0D /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 		1B2F7688230D44AB001FFA0D /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		1B2F7689230D44AB001FFA0D /* NSString+Chinese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Chinese.h"; sourceTree = "<group>"; };
 		1B2F768A230D44AB001FFA0D /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		1B2F768B230D44AB001FFA0D /* NSMutableAttributedString+Text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Text.m"; sourceTree = "<group>"; };
 		1B2F768C230D44AB001FFA0D /* NSString+DES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DES.h"; sourceTree = "<group>"; };
 		1B2F768D230D44AB001FFA0D /* NSString+Sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Sha1.h"; sourceTree = "<group>"; };
 		1B2F768E230D44AB001FFA0D /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
@@ -264,8 +260,6 @@
 				1B2F7691230D44AB001FFA0D /* NSData+Base64.m */,
 				1B2F7689230D44AB001FFA0D /* NSString+Chinese.h */,
 				1B2F7692230D44AB001FFA0D /* NSString+Chinese.m */,
-				1B2F7685230D44AB001FFA0D /* NSMutableAttributedString+Text.h */,
-				1B2F768B230D44AB001FFA0D /* NSMutableAttributedString+Text.m */,
 			);
 			name = Categorys;
 			path = XyWidget/Classes/Categorys;
@@ -478,7 +472,6 @@
 				1B2F76B0230D44AB001FFA0D /* FontConst.h in Headers */,
 				1B2F76C0230D44AB001FFA0D /* NSString+MD5.h in Headers */,
 				1B2F76E0230D44AB001FFA0D /* UIView+Additions.h in Headers */,
-				1B2F76BD230D44AB001FFA0D /* NSMutableAttributedString+Text.h in Headers */,
 				1B2F76CB230D44AB001FFA0D /* UIFont+PingFangSC.h in Headers */,
 				1B2F76B1230D44AB001FFA0D /* AppConst.h in Headers */,
 				1B2F76DD230D44AB001FFA0D /* UIViewController+CurrentController.h in Headers */,
@@ -610,7 +603,6 @@
 				1B2F76DF230D44AB001FFA0D /* CAGradientLayer+Layer.m in Sources */,
 				1B2F76CA230D44AB001FFA0D /* NSString+Chinese.m in Sources */,
 				1B2F76D0230D44AB001FFA0D /* UIView+Frame.m in Sources */,
-				1B2F76C3230D44AB001FFA0D /* NSMutableAttributedString+Text.m in Sources */,
 				1B2F76C7230D44AB001FFA0D /* NSString+MD5.m in Sources */,
 				1B2F76B5230D44AB001FFA0D /* EGOCache.m in Sources */,
 				1B2F76B9230D44AB001FFA0D /* GTMBase64.m in Sources */,
