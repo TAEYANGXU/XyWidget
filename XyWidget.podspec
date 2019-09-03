@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XyWidget'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = '项目辅助类'
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,6 @@ TODO: Add long description of the pod here.
   s.subspec 'ViewExtension' do |viewExtension|
       viewExtension.source_files = 'XyWidget/Classes/ViewExtension/**/*'
       viewExtension.public_header_files = 'XyWidget/Classes/ViewExtension/**/*.h'
-      viewExtension.dependency  'XyWidget/Const'
   end
   
   s.subspec 'Custom' do |custom|
@@ -45,7 +44,7 @@ TODO: Add long description of the pod here.
   
   s.subspec 'Const' do |const|
       const.source_files = 'XyWidget/Classes/Const/**/*'
-      const.public_headerb_files = 'XyWidget/Classes/Const/**/*.h'
+      const.public_header_files = 'XyWidget/Classes/Const/**/*.h'
   end
   
   s.subspec 'Categorys' do |categorys|
