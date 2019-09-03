@@ -216,6 +216,10 @@
 				1B2F7677230D44AA001FFA0D /* ColorConst.h */,
 				1B2F7678230D44AA001FFA0D /* ConstHeader.h */,
 				1B2F7679230D44AA001FFA0D /* RectConst.h */,
+				1B2F76A4230D44AB001FFA0D /* UIColor+Hex.h */,
+				1B2F7698230D44AB001FFA0D /* UIColor+Hex.m */,
+				1B2F7694230D44AB001FFA0D /* UIFont+PingFangSC.h */,
+				1B2F76A3230D44AB001FFA0D /* UIFont+PingFangSC.m */,
 			);
 			name = Const;
 			path = XyWidget/Classes/Const;
@@ -268,16 +272,12 @@
 		1B2F7693230D44AB001FFA0D /* ViewExtension */ = {
 			isa = PBXGroup;
 			children = (
-				1B2F76A4230D44AB001FFA0D /* UIColor+Hex.h */,
-				1B2F7698230D44AB001FFA0D /* UIColor+Hex.m */,
 				1B2F76AD230D44AB001FFA0D /* UIView+Frame.h */,
 				1B2F7699230D44AB001FFA0D /* UIView+Frame.m */,
 				1B2F769A230D44AB001FFA0D /* UIImage+Color.h */,
 				1B2F76AC230D44AB001FFA0D /* UIImage+Color.m */,
 				1B2F76A9230D44AB001FFA0D /* UIView+Additions.h */,
 				1B2F769D230D44AB001FFA0D /* UIView+Additions.m */,
-				1B2F7694230D44AB001FFA0D /* UIFont+PingFangSC.h */,
-				1B2F76A3230D44AB001FFA0D /* UIFont+PingFangSC.m */,
 				1B2F7695230D44AB001FFA0D /* UIView+DropShadow.h */,
 				1B2F76A2230D44AB001FFA0D /* UIView+DropShadow.m */,
 				1B2F769C230D44AB001FFA0D /* UIView+DrawDashLine.h */,
