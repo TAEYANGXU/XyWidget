@@ -15,10 +15,7 @@
 		1B2F76B3230D44AB001FFA0D /* ConstHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2F7678230D44AA001FFA0D /* ConstHeader.h */; };
 		1B2F76B4230D44AB001FFA0D /* RectConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2F7679230D44AA001FFA0D /* RectConst.h */; };
 		1B2F76B5230D44AB001FFA0D /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2F767B230D44AA001FFA0D /* EGOCache.m */; };
-		1B2F76B6230D44AB001FFA0D /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2F767C230D44AA001FFA0D /* GTMBase64.h */; };
 		1B2F76B7230D44AB001FFA0D /* EGOCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2F767D230D44AA001FFA0D /* EGOCache.h */; };
-		1B2F76B8230D44AB001FFA0D /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2F767E230D44AA001FFA0D /* GTMDefines.h */; };
-		1B2F76B9230D44AB001FFA0D /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2F767F230D44AA001FFA0D /* GTMBase64.m */; };
 		1B2F76BA230D44AB001FFA0D /* CustomTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2F7681230D44AA001FFA0D /* CustomTextField.h */; };
 		1B2F76BB230D44AB001FFA0D /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2F7682230D44AA001FFA0D /* CustomTextField.m */; };
 		1B2F76BC230D44AB001FFA0D /* NSString+Sha1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2F7684230D44AB001FFA0D /* NSString+Sha1.m */; };
@@ -98,10 +95,7 @@
 		1B2F7678230D44AA001FFA0D /* ConstHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstHeader.h; sourceTree = "<group>"; };
 		1B2F7679230D44AA001FFA0D /* RectConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectConst.h; sourceTree = "<group>"; };
 		1B2F767B230D44AA001FFA0D /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
-		1B2F767C230D44AA001FFA0D /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 		1B2F767D230D44AA001FFA0D /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
-		1B2F767E230D44AA001FFA0D /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		1B2F767F230D44AA001FFA0D /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		1B2F7681230D44AA001FFA0D /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
 		1B2F7682230D44AA001FFA0D /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
 		1B2F7684230D44AB001FFA0D /* NSString+Sha1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Sha1.m"; sourceTree = "<group>"; };
@@ -230,9 +224,6 @@
 			children = (
 				1B2F767D230D44AA001FFA0D /* EGOCache.h */,
 				1B2F767B230D44AA001FFA0D /* EGOCache.m */,
-				1B2F767C230D44AA001FFA0D /* GTMBase64.h */,
-				1B2F767F230D44AA001FFA0D /* GTMBase64.m */,
-				1B2F767E230D44AA001FFA0D /* GTMDefines.h */,
 			);
 			name = Tools;
 			path = XyWidget/Classes/Tools;
@@ -460,10 +451,8 @@
 				1B2F76C5230D44AB001FFA0D /* NSString+Sha1.h in Headers */,
 				1B2F76DE230D44AB001FFA0D /* UIImage+UIImageScale.h in Headers */,
 				1B2F76DB230D44AB001FFA0D /* UIColor+Hex.h in Headers */,
-				1B2F76B6230D44AB001FFA0D /* GTMBase64.h in Headers */,
 				1B2F76BA230D44AB001FFA0D /* CustomTextField.h in Headers */,
 				1B2F76B2230D44AB001FFA0D /* ColorConst.h in Headers */,
-				1B2F76B8230D44AB001FFA0D /* GTMDefines.h in Headers */,
 				1B2F76C1230D44AB001FFA0D /* NSString+Chinese.h in Headers */,
 				1B2F76E4230D44AB001FFA0D /* UIView+Frame.h in Headers */,
 				1B2F76D8230D44AB001FFA0D /* UILabel+ChangeLineSpace.h in Headers */,
@@ -605,7 +594,6 @@
 				1B2F76D0230D44AB001FFA0D /* UIView+Frame.m in Sources */,
 				1B2F76C7230D44AB001FFA0D /* NSString+MD5.m in Sources */,
 				1B2F76B5230D44AB001FFA0D /* EGOCache.m in Sources */,
-				1B2F76B9230D44AB001FFA0D /* GTMBase64.m in Sources */,
 				1B2F76DA230D44AB001FFA0D /* UIFont+PingFangSC.m in Sources */,
 				1B2F76CD230D44AB001FFA0D /* UIViewController+CurrentController.m in Sources */,
 				1B2F76D6230D44AB001FFA0D /* UIImage+UIImageScale.m in Sources */,
