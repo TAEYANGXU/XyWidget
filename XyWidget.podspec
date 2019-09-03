@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XyWidget'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = '项目辅助类'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/AlbertXYZ/XyWidget'
+  s.homepage         = 'https://github.com/TAEYANGXU/XyWidget'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'AlbertXYZ' => 'albert_xyz@163.com' }
-  s.source           = { :git => 'https://github.com/AlbertXYZ/XyWidget.git', :tag => s.version.to_s }
+  s.author           = { 'TAEYANGXU' => 'albert_xyz@163.com' }
+  s.source           = { :git => 'https://github.com/TAEYANGXU/XyWidget.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -35,6 +35,7 @@ TODO: Add long description of the pod here.
   s.subspec 'ViewExtension' do |viewExtension|
       viewExtension.source_files = 'XyWidget/Classes/ViewExtension/**/*'
       viewExtension.public_header_files = 'XyWidget/Classes/ViewExtension/**/*.h'
+      viewExtension.dependency  'XyWidget/Const'
   end
   
   s.subspec 'Custom' do |custom|
