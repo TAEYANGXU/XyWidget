@@ -33,7 +33,6 @@
 		1B5C6FCF24BEA4C0006DE08D /* NSString+Chinese.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5C6F9924BEA4C0006DE08D /* NSString+Chinese.m */; };
 		1B5C6FD024BEA4C0006DE08D /* UIFont+PingFangSC.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5C6F9B24BEA4C0006DE08D /* UIFont+PingFangSC.h */; };
 		1B5C6FD124BEA4C0006DE08D /* UIView+DropShadow.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5C6F9C24BEA4C0006DE08D /* UIView+DropShadow.h */; };
-		1B5C6FD224BEA4C0006DE08D /* UIViewController+CurrentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5C6F9D24BEA4C0006DE08D /* UIViewController+CurrentController.m */; };
 		1B5C6FD324BEA4C0006DE08D /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5C6F9E24BEA4C0006DE08D /* UITextView+Placeholder.m */; };
 		1B5C6FD424BEA4C0006DE08D /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5C6F9F24BEA4C0006DE08D /* UIColor+Hex.m */; };
 		1B5C6FD524BEA4C0006DE08D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5C6FA024BEA4C0006DE08D /* UIView+Frame.m */; };
@@ -49,7 +48,6 @@
 		1B5C6FDF24BEA4C0006DE08D /* UIFont+PingFangSC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5C6FAA24BEA4C0006DE08D /* UIFont+PingFangSC.m */; };
 		1B5C6FE024BEA4C0006DE08D /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5C6FAB24BEA4C0006DE08D /* UIColor+Hex.h */; };
 		1B5C6FE124BEA4C0006DE08D /* UITextView+Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5C6FAC24BEA4C0006DE08D /* UITextView+Placeholder.h */; };
-		1B5C6FE224BEA4C0006DE08D /* UIViewController+CurrentController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5C6FAD24BEA4C0006DE08D /* UIViewController+CurrentController.h */; };
 		1B5C6FE324BEA4C0006DE08D /* UIImage+UIImageScale.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5C6FAE24BEA4C0006DE08D /* UIImage+UIImageScale.h */; };
 		1B5C6FE424BEA4C0006DE08D /* CAGradientLayer+Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5C6FAF24BEA4C0006DE08D /* CAGradientLayer+Layer.m */; };
 		1B5C6FE524BEA4C0006DE08D /* UIView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5C6FB024BEA4C0006DE08D /* UIView+Additions.h */; };
@@ -115,7 +113,6 @@
 		1B5C6F9924BEA4C0006DE08D /* NSString+Chinese.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Chinese.m"; sourceTree = "<group>"; };
 		1B5C6F9B24BEA4C0006DE08D /* UIFont+PingFangSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+PingFangSC.h"; sourceTree = "<group>"; };
 		1B5C6F9C24BEA4C0006DE08D /* UIView+DropShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DropShadow.h"; sourceTree = "<group>"; };
-		1B5C6F9D24BEA4C0006DE08D /* UIViewController+CurrentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CurrentController.m"; sourceTree = "<group>"; };
 		1B5C6F9E24BEA4C0006DE08D /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
 		1B5C6F9F24BEA4C0006DE08D /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		1B5C6FA024BEA4C0006DE08D /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
@@ -131,7 +128,6 @@
 		1B5C6FAA24BEA4C0006DE08D /* UIFont+PingFangSC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+PingFangSC.m"; sourceTree = "<group>"; };
 		1B5C6FAB24BEA4C0006DE08D /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		1B5C6FAC24BEA4C0006DE08D /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
-		1B5C6FAD24BEA4C0006DE08D /* UIViewController+CurrentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CurrentController.h"; sourceTree = "<group>"; };
 		1B5C6FAE24BEA4C0006DE08D /* UIImage+UIImageScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIImageScale.h"; sourceTree = "<group>"; };
 		1B5C6FAF24BEA4C0006DE08D /* CAGradientLayer+Layer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAGradientLayer+Layer.m"; sourceTree = "<group>"; };
 		1B5C6FB024BEA4C0006DE08D /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
@@ -255,34 +251,32 @@
 		1B5C6F9A24BEA4C0006DE08D /* ViewExtension */ = {
 			isa = PBXGroup;
 			children = (
-				1B5C6F9B24BEA4C0006DE08D /* UIFont+PingFangSC.h */,
-				1B5C6F9C24BEA4C0006DE08D /* UIView+DropShadow.h */,
-				1B5C6F9D24BEA4C0006DE08D /* UIViewController+CurrentController.m */,
-				1B5C6F9E24BEA4C0006DE08D /* UITextView+Placeholder.m */,
-				1B5C6F9F24BEA4C0006DE08D /* UIColor+Hex.m */,
-				1B5C6FA024BEA4C0006DE08D /* UIView+Frame.m */,
-				1B5C6FA124BEA4C0006DE08D /* UIImage+Color.h */,
-				1B5C6FA224BEA4C0006DE08D /* UIViewController+Extension.m */,
-				1B5C6FA324BEA4C0006DE08D /* UIView+DrawDashLine.h */,
-				1B5C6FA424BEA4C0006DE08D /* UIView+Additions.m */,
 				1B5C6FA524BEA4C0006DE08D /* CAGradientLayer+Layer.h */,
-				1B5C6FA624BEA4C0006DE08D /* UIImage+UIImageScale.m */,
-				1B5C6FA724BEA4C0006DE08D /* NSUserDefaults+Assist.h */,
-				1B5C6FA824BEA4C0006DE08D /* UILabel+ChangeLineSpace.h */,
-				1B5C6FA924BEA4C0006DE08D /* UIView+DropShadow.m */,
-				1B5C6FAA24BEA4C0006DE08D /* UIFont+PingFangSC.m */,
-				1B5C6FAB24BEA4C0006DE08D /* UIColor+Hex.h */,
-				1B5C6FAC24BEA4C0006DE08D /* UITextView+Placeholder.h */,
-				1B5C6FAD24BEA4C0006DE08D /* UIViewController+CurrentController.h */,
-				1B5C6FAE24BEA4C0006DE08D /* UIImage+UIImageScale.h */,
 				1B5C6FAF24BEA4C0006DE08D /* CAGradientLayer+Layer.m */,
-				1B5C6FB024BEA4C0006DE08D /* UIView+Additions.h */,
-				1B5C6FB124BEA4C0006DE08D /* UIViewController+Extension.h */,
-				1B5C6FB224BEA4C0006DE08D /* UIView+DrawDashLine.m */,
-				1B5C6FB324BEA4C0006DE08D /* UIImage+Color.m */,
-				1B5C6FB424BEA4C0006DE08D /* UIView+Frame.h */,
-				1B5C6FB524BEA4C0006DE08D /* UILabel+ChangeLineSpace.m */,
+				1B5C6FA724BEA4C0006DE08D /* NSUserDefaults+Assist.h */,
 				1B5C6FB624BEA4C0006DE08D /* NSUserDefaults+Assist.m */,
+				1B5C6FAB24BEA4C0006DE08D /* UIColor+Hex.h */,
+				1B5C6F9F24BEA4C0006DE08D /* UIColor+Hex.m */,
+				1B5C6F9B24BEA4C0006DE08D /* UIFont+PingFangSC.h */,
+				1B5C6FAA24BEA4C0006DE08D /* UIFont+PingFangSC.m */,
+				1B5C6FA124BEA4C0006DE08D /* UIImage+Color.h */,
+				1B5C6FB324BEA4C0006DE08D /* UIImage+Color.m */,
+				1B5C6FAE24BEA4C0006DE08D /* UIImage+UIImageScale.h */,
+				1B5C6FA624BEA4C0006DE08D /* UIImage+UIImageScale.m */,
+				1B5C6FA824BEA4C0006DE08D /* UILabel+ChangeLineSpace.h */,
+				1B5C6FB524BEA4C0006DE08D /* UILabel+ChangeLineSpace.m */,
+				1B5C6FAC24BEA4C0006DE08D /* UITextView+Placeholder.h */,
+				1B5C6F9E24BEA4C0006DE08D /* UITextView+Placeholder.m */,
+				1B5C6FB024BEA4C0006DE08D /* UIView+Additions.h */,
+				1B5C6FA424BEA4C0006DE08D /* UIView+Additions.m */,
+				1B5C6FA324BEA4C0006DE08D /* UIView+DrawDashLine.h */,
+				1B5C6FB224BEA4C0006DE08D /* UIView+DrawDashLine.m */,
+				1B5C6F9C24BEA4C0006DE08D /* UIView+DropShadow.h */,
+				1B5C6FA924BEA4C0006DE08D /* UIView+DropShadow.m */,
+				1B5C6FB424BEA4C0006DE08D /* UIView+Frame.h */,
+				1B5C6FA024BEA4C0006DE08D /* UIView+Frame.m */,
+				1B5C6FB124BEA4C0006DE08D /* UIViewController+Extension.h */,
+				1B5C6FA224BEA4C0006DE08D /* UIViewController+Extension.m */,
 			);
 			name = ViewExtension;
 			path = XyWidget/Classes/ViewExtension;
@@ -446,7 +440,6 @@
 				1B5C6FD124BEA4C0006DE08D /* UIView+DropShadow.h in Headers */,
 				1B5C6FC224BEA4C0006DE08D /* NSMutableAttributedString+Text.h in Headers */,
 				1B5C6FBD24BEA4C0006DE08D /* AppConst.h in Headers */,
-				1B5C6FE224BEA4C0006DE08D /* UIViewController+CurrentController.h in Headers */,
 				14DC3466E1EAABC2F93D12AA57B6CFB8 /* Pods-XyWidget_Example-umbrella.h in Headers */,
 				1B5C6FC624BEA4C0006DE08D /* NSString+Chinese.h in Headers */,
 				1B5C6FBE24BEA4C0006DE08D /* ColorConst.h in Headers */,
@@ -610,7 +603,6 @@
 				923BFFB6FF5C449EF4F89AC03D846ACE /* Pods-XyWidget_Example-dummy.m in Sources */,
 				1B5C6FCD24BEA4C0006DE08D /* GTMBase64.m in Sources */,
 				1B5C6FE424BEA4C0006DE08D /* CAGradientLayer+Layer.m in Sources */,
-				1B5C6FD224BEA4C0006DE08D /* UIViewController+CurrentController.m in Sources */,
 				1B5C6FEC24BEA4C0006DE08D /* EGOCache.m in Sources */,
 				1B5C6FEB24BEA4C0006DE08D /* NSUserDefaults+Assist.m in Sources */,
 				1B5C6FCF24BEA4C0006DE08D /* NSString+Chinese.m in Sources */,
