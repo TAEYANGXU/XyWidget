@@ -22,7 +22,7 @@ pod 'XyWidget'
 
 ## Author
 
-albert_xyz@163.com, xuyanzhang@lanyife.com
+albert_xyz@163.com, TAEYANGXU
 
 ## License
 

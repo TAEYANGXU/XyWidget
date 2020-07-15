@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "AppConst.h"
 #import "FontConst.h"
+#import "RectConst.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

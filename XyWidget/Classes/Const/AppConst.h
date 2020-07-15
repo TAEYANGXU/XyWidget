@@ -24,21 +24,21 @@
 #define SYSTEM_VERSION  [UIDevice currentDevice].systemVersion
 
 //判断是否是ipad
-#define isPad ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
+#define  isiPad ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
 //判断iPhone4系列
-#define isIPhone4 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) && !isPad : NO)
+#define isIPhone4 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) && ! isiPad : NO)
 //判断iPhone5系列
-#define isIPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) && !isPad : NO)
+#define isIPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) && ! isiPad : NO)
 //判断iPhone6 6s 7系列
-#define isIPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) && !isPad : NO)
+#define isIPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) && ! isiPad : NO)
 //判断iPhone6p 6sp 7p系列
-#define isIPhone6Plus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) && !isPad : NO)
+#define isIPhone6Plus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) && ! isiPad : NO)
 //判断iPhoneX，Xs（iPhoneX，iPhoneXs）
-#define IS_IPHONE_X ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) && !isPad : NO)
+#define IS_IPHONE_X ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) && ! isiPad : NO)
 //判断iPhoneXr
-#define IS_IPHONE_Xr ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(828, 1792), [[UIScreen mainScreen] currentMode].size) && !isPad : NO)
+#define IS_IPHONE_Xr ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(828, 1792), [[UIScreen mainScreen] currentMode].size) && ! isiPad : NO)
 //判断iPhoneXsMax
-#define IS_IPHONE_Xs_Max ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2688), [[UIScreen mainScreen] currentMode].size)&& !isPad : NO)
+#define IS_IPHONE_Xs_Max ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2688), [[UIScreen mainScreen] currentMode].size)&& ! isiPad : NO)
 
 //判断iPhoneX所有系列
 #define IS_IPhoneX_All (IS_IPHONE_X || IS_IPHONE_Xr || IS_IPHONE_Xs_Max)
@@ -53,14 +53,11 @@
 #define IS_IOS_9_OR_LESS        (floorf([[UIDevice currentDevice].systemVersion floatValue]) < 10.0)
 #define IS_IOS_8_OR_LESS        (floorf([[UIDevice currentDevice].systemVersion floatValue]) < 9.0)
 
-#define    prop_readonly( type, name )        @property (nonatomic, readonly) type name;
-#define    prop_dynamic( type, name )        @property (nonatomic, strong) type name;
-#define    prop_assign( type, name )        @property (nonatomic, assign) type name;
-#define    prop_strong( type, name )        @property (nonatomic, strong) type name;
-#define    prop_weak( type, name )            @property (nonatomic, weak) type name;
-#define    prop_copy( type, name )            @property (nonatomic, copy) type name;
-#define    prop_unsafe( type, name )        @property (nonatomic, unsafe_unretained) type name;
+//去掉字符串两端的空格及回车
+#define TrimWarp(C)     [C stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet ]]
+//根据屏幕适配尺寸 375：UI设计原型图的手机尺寸宽度
+#define HeightScale(h)  (h*[UIScreen mainScreen].bounds.size.width/375.0)
 
-
+#define MAIN_WINDOW     [UIApplication sharedApplication].keyWindow
 
 #endif /* AppConst_h */
