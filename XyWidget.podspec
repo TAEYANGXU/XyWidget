@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XyWidget'
-  s.version          = '1.0.4'
+  s.version          = '1.1.5'
   s.summary          = '项目辅助类'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   # s.source_files = 'XyWidget/Classes/**/*'
   
-  s.subspec 'ViewExtension' do |viewExtension|
+    s.subspec 'ViewExtension' do |viewExtension|
       viewExtension.source_files = 'XyWidget/Classes/ViewExtension/**/*'
       viewExtension.public_header_files = 'XyWidget/Classes/ViewExtension/**/*.h'
       viewExtension.dependency  'XyWidget/Const'
@@ -46,17 +46,20 @@ TODO: Add long description of the pod here.
   s.subspec 'Const' do |const|
       const.source_files = 'XyWidget/Classes/Const/**/*'
       const.public_header_files = 'XyWidget/Classes/Const/**/*.h'
+      # const.dependency  'XyWidget/ViewExtension'
   end
   
   s.subspec 'Categorys' do |categorys|
       categorys.source_files = 'XyWidget/Classes/Categorys/**/*'
       categorys.public_header_files = 'XyWidget/Classes/Categorys/**/*.h'
+      categorys.dependency 'YYText'
   end
   
   s.subspec 'Tools' do |tools|
       tools.source_files = 'XyWidget/Classes/Tools/**/*'
       tools.public_header_files = 'XyWidget/Classes/Tools/**/*.h'
   end
+
   
   
   # s.resource_bundles = {
@@ -68,6 +71,6 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   
   s.frameworks = 'UIKit'
-  # s.dependency 'YYText'
+  s.dependency 'YYText'
   
 end

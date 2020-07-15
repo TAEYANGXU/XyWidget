@@ -58,8 +58,8 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         UITextField *textField = [[UITextField alloc] init];
-        textField.placeholder = @" ";
-        color = [textField valueForKeyPath:@"_placeholderLabel.textColor"];
+//        textField.placeholder = @" ";
+//        color = [textField valueForKeyPath:@"_placeholderLabel.textColor"];
     });
     return color;
 }
