@@ -59,6 +59,10 @@
 		1B2F76E6230D44AB001FFA0D /* NSUserDefaults+Assist.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2F76AF230D44AB001FFA0D /* NSUserDefaults+Assist.m */; };
 		1B5C6FF024BEA70E006DE08D /* NSMutableAttributedString+Text.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5C6FEE24BEA70E006DE08D /* NSMutableAttributedString+Text.m */; };
 		1B5C6FF124BEA70E006DE08D /* NSMutableAttributedString+Text.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5C6FEF24BEA70E006DE08D /* NSMutableAttributedString+Text.h */; };
+		1BA8480D2578763A0058BD9C /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA8480B2578763A0058BD9C /* NSString+UUID.m */; };
+		1BA8480E2578763A0058BD9C /* NSString+UUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA8480C2578763A0058BD9C /* NSString+UUID.h */; };
+		1BA84814257876490058BD9C /* KeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA84812257876490058BD9C /* KeyChainStore.m */; };
+		1BA84815257876490058BD9C /* KeyChainStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA84813257876490058BD9C /* KeyChainStore.h */; };
 		1FC4CCA72A21EF6B1330BD39B76AAF09 /* XyWidget-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E59B9665B780B328A526A87F8EF102B /* XyWidget-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4ED962DB3D5EA664FEFED1ACA2749842 /* Pods-XyWidget_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 982BBB3062402F6A8FE8B5CED9107868 /* Pods-XyWidget_Tests-dummy.m */; };
 		6E3B76C103E8AF66C2545783D933B7D0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9340AABAE10EE47D92EB64A37D3B611E /* ReplaceMe.m */; };
@@ -139,6 +143,10 @@
 		1B2F76AF230D44AB001FFA0D /* NSUserDefaults+Assist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Assist.m"; sourceTree = "<group>"; };
 		1B5C6FEE24BEA70E006DE08D /* NSMutableAttributedString+Text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Text.m"; sourceTree = "<group>"; };
 		1B5C6FEF24BEA70E006DE08D /* NSMutableAttributedString+Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Text.h"; sourceTree = "<group>"; };
+		1BA8480B2578763A0058BD9C /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
+		1BA8480C2578763A0058BD9C /* NSString+UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UUID.h"; sourceTree = "<group>"; };
+		1BA84812257876490058BD9C /* KeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChainStore.m; sourceTree = "<group>"; };
+		1BA84813257876490058BD9C /* KeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChainStore.h; sourceTree = "<group>"; };
 		1C88338DCF0174ECA162C497FBFB6BF7 /* XyWidget.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XyWidget.xcconfig; sourceTree = "<group>"; };
 		21911D90297A37BD75910C4CD8FCD8F8 /* Pods-XyWidget_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XyWidget_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		246C793ADAAC8B6CCBB6C092D92521FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -238,6 +246,10 @@
 		1B2F7683230D44AB001FFA0D /* Categorys */ = {
 			isa = PBXGroup;
 			children = (
+				1BA84813257876490058BD9C /* KeyChainStore.h */,
+				1BA84812257876490058BD9C /* KeyChainStore.m */,
+				1BA8480C2578763A0058BD9C /* NSString+UUID.h */,
+				1BA8480B2578763A0058BD9C /* NSString+UUID.m */,
 				1B5C6FEF24BEA70E006DE08D /* NSMutableAttributedString+Text.h */,
 				1B5C6FEE24BEA70E006DE08D /* NSMutableAttributedString+Text.m */,
 				1B2F7687230D44AB001FFA0D /* GTMBase64.h */,
@@ -456,10 +468,12 @@
 				1B2F76B2230D44AB001FFA0D /* ColorConst.h in Headers */,
 				1B2F76C1230D44AB001FFA0D /* NSString+Chinese.h in Headers */,
 				1B2F76E4230D44AB001FFA0D /* UIView+Frame.h in Headers */,
+				1BA8480E2578763A0058BD9C /* NSString+UUID.h in Headers */,
 				1B2F76D8230D44AB001FFA0D /* UILabel+ChangeLineSpace.h in Headers */,
 				1B2F76D7230D44AB001FFA0D /* NSUserDefaults+Assist.h in Headers */,
 				14DC3466E1EAABC2F93D12AA57B6CFB8 /* Pods-XyWidget_Example-umbrella.h in Headers */,
 				1B2F76B0230D44AB001FFA0D /* FontConst.h in Headers */,
+				1BA84815257876490058BD9C /* KeyChainStore.h in Headers */,
 				1B2F76C0230D44AB001FFA0D /* NSString+MD5.h in Headers */,
 				1B2F76E0230D44AB001FFA0D /* UIView+Additions.h in Headers */,
 				1B2F76CB230D44AB001FFA0D /* UIFont+PingFangSC.h in Headers */,
@@ -588,10 +602,12 @@
 				1B2F76BB230D44AB001FFA0D /* CustomTextField.m in Sources */,
 				1B2F76CE230D44AB001FFA0D /* UITextView+Placeholder.m in Sources */,
 				1B2F76D9230D44AB001FFA0D /* UIView+DropShadow.m in Sources */,
+				1BA8480D2578763A0058BD9C /* NSString+UUID.m in Sources */,
 				1B2F76E3230D44AB001FFA0D /* UIImage+Color.m in Sources */,
 				1B2F76DF230D44AB001FFA0D /* CAGradientLayer+Layer.m in Sources */,
 				1B2F76CA230D44AB001FFA0D /* NSString+Chinese.m in Sources */,
 				1B2F76D0230D44AB001FFA0D /* UIView+Frame.m in Sources */,
+				1BA84814257876490058BD9C /* KeyChainStore.m in Sources */,
 				1B2F76C7230D44AB001FFA0D /* NSString+MD5.m in Sources */,
 				1B2F76B5230D44AB001FFA0D /* EGOCache.m in Sources */,
 				1B5C6FF024BEA70E006DE08D /* NSMutableAttributedString+Text.m in Sources */,
