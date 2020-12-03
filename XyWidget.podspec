@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XyWidget'
-  s.version          = '1.2.0'
+  s.version          = '1.2.1'
   s.summary          = '项目辅助类'
 
 # This description is used to generate tags and improve search results.
